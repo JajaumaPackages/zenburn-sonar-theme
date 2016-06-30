@@ -15,6 +15,7 @@ BuildArch:      noarch
 BuildRequires:  cmake >= 3.0.0
 BuildRequires:  ImageMagick
 Requires:       awesome
+Requires:       adwaita-icon-theme
 
 %description
 This package provides customized theme based on the original zenburn AwesomeWM
