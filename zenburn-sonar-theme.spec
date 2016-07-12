@@ -1,5 +1,5 @@
 Name:           zenburn-sonar-theme
-Version:        0.6
+Version:        0.7
 Release:        1%{?dist}
 Summary:        Branded fork of original Zenburn theme from AwesomeWM
 
@@ -47,5 +47,8 @@ popd
 
 
 %changelog
+* Tue Jul 12 2016 Jajauma's Packages <jajauma@yandex.ru> - 0.7-1
+- Update to latest upstream release
+
 * Thu Jun 30 2016 Jajauma's Packages <jajauma@yandex.ru> - 0.6-1
 - Public release
