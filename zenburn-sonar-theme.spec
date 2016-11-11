@@ -1,5 +1,5 @@
 Name:           zenburn-sonar-theme
-Version:        0.7
+Version:        0.8
 Release:        1%{?dist}
 Summary:        Branded fork of original Zenburn theme from AwesomeWM
 
@@ -15,7 +15,7 @@ BuildArch:      noarch
 BuildRequires:  cmake >= 3.0.0
 BuildRequires:  ImageMagick
 Requires:       awesome
-Requires:       adwaita-icon-theme
+Requires:       mate-icon-theme
 
 %description
 This package provides customized theme based on the original zenburn AwesomeWM
@@ -47,6 +47,9 @@ popd
 
 
 %changelog
+* Fri Nov 11 2016 Jajauma's Packages <jajauma@yandex.ru> - 0.8-1
+- Update to latest upstream release
+
 * Tue Jul 12 2016 Jajauma's Packages <jajauma@yandex.ru> - 0.7-1
 - Update to latest upstream release
 
